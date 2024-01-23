@@ -47,6 +47,10 @@ return require('packer').startup(function(use)
         }
     }
     use { 'github/copilot.vim' }
+    use {
+        'nvim-tree/nvim-tree.lua' ,
+        requires = { 'nvim-tree/nvim-web-devicons' }
+    }
 
 -- Automatically set up your configuration after cloning packer.nvim
 -- Put this at the end after all plugins
