@@ -39,13 +39,7 @@ return require('packer').startup(function(use)
         }
     }
     use { 'ThePrimeagen/vim-be-good' }
-    use {
-        'kdheepak/lazygit.nvim',
-        -- optional for floating window border decoration
-        requires = {
-            'nvim-lua/plenary.nvim',
-        }
-    }
+    use { 'kdheepak/lazygit.nvim' }
     use { 'github/copilot.vim' }
     use {
         'nvim-tree/nvim-tree.lua' ,
